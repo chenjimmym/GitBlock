@@ -66,8 +66,23 @@
 .main-right{
     width: 680px;
     height: 600px;
-    background-color: orange;
     display: inline-block;
+    padding-left: 10px;
+    color: #DFDFDF;
+}
+.main-right a{
+    color: #00757E;
+}
+.main-right h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.main-right p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 20px;
     padding-left: 10px;
 }
 .square{
@@ -75,5 +90,40 @@
     height: 200px;
     background-color: #00282B;
     display: inline-block;
-    margin: 11px;
+    margin: 0px 11px 11px 11px;
+    vertical-align: top;
+}
+#four{
+    width: 308px;
+    height: 180px;
+    background-color: #00282B;
+    display: inline-block;
+    margin: 15px 15px 15px 12px;
+    vertical-align: top;
+}
+#five{
+    width: 308px;
+    height: 180px;
+    background-color: #00282B;
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+}
+#six{
+    width: 652px;
+    height: 163px;
+    background-color: #00282B;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.footer{
+    width: 980px;
+    height: 80px;
+    background-color: #0AB4B4;
+    margin-top: 10px;
+}
+.footer p{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
 }
